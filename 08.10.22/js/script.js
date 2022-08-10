@@ -19,3 +19,12 @@ document.getElementById('out').innerHTML = "<b>2022</b>";
 document.querySelector('.header').innerHTML = 7;
 document.querySelector('#one').innerHTML = 777; // with #
 document.getElementById('one').innerHTML = 888; // with out #
+
+
+let b; // var a - устарело
+let a = document.querySelector('#one'); //  внутрь a положил параграф
+let c;
+c = document.querySelector('.header');
+
+a.innerHTML = 9999; // new! - mistake
+c.innerHTML = 28011989;
