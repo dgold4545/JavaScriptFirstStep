@@ -9,4 +9,13 @@ console.log('hello' + ' world'); // конкатенация
 console.log('hello ' + 'world'); // конкатенация
 console.log('hello' + ' ' + 'world'); // конкатенация
 console.info("Hello");
-alert('hello');
+// alert('hello'); 
+
+document.getElementById('out').innerHTML = "Hello today is 10.08.22";
+document.getElementById('out').innerHTML = "Hello today is 08.10.22";
+document.getElementById('out').innerHTML = 2019;
+document.getElementById('out').innerHTML = "<b>2022</b>";
+
+document.querySelector('.header').innerHTML = 7;
+document.querySelector('#one').innerHTML = 777; // with #
+document.getElementById('one').innerHTML = 888; // with out #
