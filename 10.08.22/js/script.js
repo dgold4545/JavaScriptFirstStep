@@ -9,3 +9,4 @@ console.log('hello' + ' world'); // конкатенация
 console.log('hello ' + 'world'); // конкатенация
 console.log('hello' + ' ' + 'world'); // конкатенация
 console.info("Hello");
+alert('hello');
