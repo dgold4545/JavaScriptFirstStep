@@ -1,17 +1,17 @@
 'use strict';
 
-// let userName = prompt('what is your name?');
-// console.log(`your name is ${userName}`);
-// alert(`your name is ${userName}`);
+let userName = prompt('what is your name?');
+console.log(`your name is ${userName}`);
+alert(`your name is ${userName}`);
 
-// let userAge = prompt('what is your age?');
-// alert(`Your age is ${userAge}`);
-// console.log(userAge);
+let userAge = prompt('what is your age?');
+alert(`Your age is ${userAge}`);
+console.log(userAge);
 
-// let num1 = prompt('enter the first number');
-// let num2 = prompt('enter the second number');
+let num1 = prompt('enter the first number');
+let num2 = prompt('enter the second number');
 
-// alert(num1 + num2);
+alert(num1 + num2);
 
 let firstNumber = Number(prompt('enter the first Number'));
 let secondNumber = Number(prompt('enter the second Number'));
