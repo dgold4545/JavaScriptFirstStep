@@ -43,10 +43,22 @@ if (String(str1)[2] == 0) {
     console.log('yes my master');
 }
 
-num = 135;
+num = 134;
 
 if (num % 2 == 0) {
     console.log('da chetnoe');
 } else {
     console.log('nope ne chetnoe');
+}
+
+if (
+    String(num)[2] == 0 ||
+    String(num)[2] == 2 ||
+    String(num)[2] == 4 ||
+    String(num)[2] == 6 ||
+    String(num)[2] == 8
+) {
+    console.log('da chetnoe');
+} else {
+    console.log(' net ne chetnoe');
 }
