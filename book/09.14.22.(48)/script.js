@@ -54,3 +54,11 @@ daysWeek = {
     7: 'Sunday',
 };
 console.log(daysWeek);
+
+console.log(daysWeek[1]);
+console.log(daysWeek[2]);
+console.log(daysWeek[3]);
+console.log(daysWeek[4]);
+console.log(daysWeek[5]);
+console.log(daysWeek[6]);
+console.log(daysWeek[7]);
