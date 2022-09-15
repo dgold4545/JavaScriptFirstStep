@@ -13,13 +13,13 @@ while (userName == '' || userName == isNaN || userName == null) {
 userAge = Number(prompt('Enter your Age'));
 console.log(userAge);
 
-while (userAnswer == isNaN) {
+while (userAge == isNaN) {
     Number(prompt('Enter your Age'));
 }
 
 if (userAge < 18) {
     alert('You are not allowed to visit this website');
-} else if (userAge > 18 && userAge <= 22) {
+} else if (userAge >= 18 && userAge <= 22) {
     userAnswer = confirm('Are you sure you want to continue?');
     if (userAnswer) {
         alert(`Welcome, ${userName}`);
