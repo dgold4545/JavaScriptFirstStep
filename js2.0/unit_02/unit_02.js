@@ -47,6 +47,9 @@ document.querySelector('.out-7').textContent = e4 * f4;
 
 // Task 8.
 // По нажатию на кнопку .b-8 выполняется функция, которая выводит в div.out-8 то, что пользователь ввел в input.i-8.
+let i8 = document.querySelector('.i-8');
+let b8 = document.querySelector('.b-8');
+let out8 = document.querySelector('.out-8');
 
 function t8() {
     // value всегда получаем внутри функции
@@ -56,6 +59,11 @@ function t8() {
 
 document.querySelector('.b-8').onclick = t8;
 
+b8.onclick = function () {
+    let output = +i8.value;
+    out8.innerHTML = output;
+    i8.value = '';
+};
 // Task 9.
 // По нажатию на кнопку .b-9 выполняется функция t9, которая выводит в div.out-9 то, что пользователь ввел в input.i-9. Добавьте очистку input после нажатия кнопки.
 
