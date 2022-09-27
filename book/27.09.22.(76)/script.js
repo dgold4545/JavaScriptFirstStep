@@ -1,7 +1,7 @@
 'use strict';
 
 let test1 = 1;
-let test2 = 2;
+let test2 = 1;
 
 if (test2 > test1) {
     console.log('true eeee');
